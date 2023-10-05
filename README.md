@@ -20,4 +20,14 @@ pip install -r requirements.txt
 ```
 The only think is that it often does not work and I install the packages mentioned in the `requirements.txt` manually
 
-3. `Langchain_Semantic_Search_Pinecone.ipynb` is for 
+```shell
+./requirements.sh
+```
+
+3. `Langchain_Semantic_Search_Pinecone.ipynb` is for storing the Pinecone index (done once and run locally)
+
+4. Run on port 8080
+
+```shell
+./run_fastapi.sh
+```

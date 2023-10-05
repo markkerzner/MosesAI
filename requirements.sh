@@ -7,3 +7,4 @@ pip install unstructured
 pip install unstructured[local-inference]
 pip install detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2
 pip install tiktoken
+pip install uvicorn
