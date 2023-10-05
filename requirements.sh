@@ -1,0 +1,9 @@
+pip install openai
+pip install fastapi
+pip install python-dotenv
+pip install pinecone-client
+pip install langchain
+pip install unstructured
+pip install unstructured[local-inference]
+pip install detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2
+pip install tiktoken
