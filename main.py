@@ -7,7 +7,7 @@ from typing import List, Optional
 import datetime
 import logging
 
-VERSION = "0.4.0"
+VERSION = "0.5.1"
 # Configure logging
 logging.basicConfig(filename='MosesAI.log', level=logging.INFO)
 logger = logging.getLogger(__name__)
