@@ -29,7 +29,6 @@ embeddings = OpenAIEmbeddings(openai_api_key=openai.api_key)
 # initialize pinecone
 pinecone.init(
     api_key=os.getenv('PINECONE_API_KEY'),
-    # environment="us-west4-gcp-free"  # next to api key in console
     environment="us-central1-gcp"  # next to api key in console
 )
 
@@ -41,7 +40,6 @@ index_name = "talmud-pages"
 
 # if you already have an index, you can load it like this
 index = Pinecone.from_existing_index(index_name, embeddings)
-
 
 def get_similar_docs(query, num_sources=20, score=False):
     if score:
