@@ -58,7 +58,8 @@ origins = [
     "http://localhost:8000",
     "http://localhost:3000",
     "http://18.219.69.62",
-    "https://mosesai.org"
+    "https://mosesai.org",
+    "http://mosesai.org"
 ]
 app.add_middleware(
     CORSMiddleware,
