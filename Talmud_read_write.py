@@ -19,7 +19,6 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 
 _ = load_dotenv(find_dotenv())  # read local .env file
-openai.api_key = os.getenv('OPENAI_API_KEY')
 MODEL = "gpt-4"
 embeddings = OpenAIEmbeddings(openai_api_key=openai.api_key)
 
